@@ -168,12 +168,21 @@ nav {
     align-items: center;
     padding-left: 15vw;
     padding-right: 15vw;
+    min-height: 500px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-img {
+    width: 35vw;
+}
+.gamer-img img {
+    width: 100%;
 }
 .gamer-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 1.5rem;
+    width: 35vw;
 }
 .gamer-first {
     text-align: right;
