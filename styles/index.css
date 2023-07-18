@@ -97,9 +97,17 @@ nav {
     display: flex;
 }
 .banner-title {
-    background-image: url(/images/Group14.png);
+    display: flex;
+    height: 60vh;
+    width: 50vw;
+    min-height: 400px;
+    align-items: center;
+    background-image: url("/images/Group14.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    border: 1px solid tomato;
+}
+.banner-title > div {
+    padding-left: 15vw;
 }
 .bt-first {
     color: var(--text-color-black);
@@ -137,6 +145,18 @@ nav {
 }
 #btnRogue {
     background-color: #4EC5F7;
+}
+.banner-img {
+    display: flex;
+    height: 60vh;
+    width: 50vw;
+    min-height: 400px;
+    justify-content: flex-end;
+    margin-right: 15vw;
+}
+.banner-img img {
+    height: 60vh;
+    min-height: 400px;
 }
 
  
