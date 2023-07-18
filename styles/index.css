@@ -1,0 +1,142 @@
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+:root {
+    --text-color-black: #0B0223;
+    --text-color-light-black: #3C354F;
+    --text-color-gray: #534C64;
+    --gradient-blue: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --gradient-red: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.text-gradient-red {
+    background: -webkit-linear-gradient(#FF42A5, #FF42A5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gradient-blue {
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.btn {
+    border-radius: 3rem;
+    padding: 1.25rem 2.5rem;    
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;     
+    border: 0;
+}
+
+
+/* nav */
+nav {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.legend {
+    display: flex;
+    align-items: center;
+}
+.legend img {
+    width: 86px;
+    height: 40px;
+}
+.legend div:nth-child(2) {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.menu-content {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-items: center;
+}
+.menu-content div ul {
+    display: flex;
+    color: var(--text-color-light-black);
+    align-items: center;
+}
+.menu-feature li {
+    margin-right: 2rem;
+}
+.menu-links {
+    padding: 17px 24px;
+    border-radius: 0.5rem;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+
+
+
+/* banner */
+.banner {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+.banner-title {
+    background-image: url(/images/Group14.png);
+    background-repeat: no-repeat;
+    border: 1px solid tomato;
+}
+.bt-first {
+    color: var(--text-color-black);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bt-second {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;    
+    margin-bottom: 1.5rem;
+}
+.bt-third, .bt-fourth, .bt-fifth {
+    color: var(--text-color-gray);
+    display: flex;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.banner-title img {
+    margin-right: 0.7rem;
+}
+.bt-sixth {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+#btnSignIn {
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+#btnRogue {
+    background-color: #4EC5F7;
+}
+
+ 
