@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+    .btn {
+        padding: 0.5rem 1.5rem;    
+        font-size: .75rem;
+        font-weight: 500;
+    }
+    .h1 {
+        font-size: 2rem;
+    }
+    .p-text {
+        font-size: 0.75rem;
+    }
+    .cap-text {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+
+
+    /* nav */
+    .menu {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .legend img {
+        width: 66px;
+        height: 30px;
+    }
+    .legend div:nth-child(2) {
+        font-size: 2rem;
+    }
+    .menu-content {
+        flex-direction: column;
+    }
+    .menu-feature {
+        margin: 20px 0;
+    }
+    .menu-feature li {
+        margin-right: 0;
+    }
+    .menu-feature ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu-links {
+        padding: 10px 15px;
+    }
+}
