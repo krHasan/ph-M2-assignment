@@ -242,3 +242,46 @@ nav {
     width: 100%;
     margin-bottom: 1rem;
 }
+
+
+/* instant */
+.instant {
+    display: flex;
+    justify-content: flex-end;
+    margin: 120px 15vw 120px 15vw;
+    height: 650px;
+}
+.instant-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 265px;
+}
+.ic-heading {
+    width: 400px;
+    text-align: right;
+}
+.ic-text {
+    width: 350px;
+    text-align: right;
+    margin-top: 1.5rem;
+    position: relative;
+    right: -45px;
+}
+#bigImage {
+    width: 634px;
+    height: 650px;
+}
+#bigImage img {
+    width: 100%;
+} 
+#littleImage {
+    width: 318px;
+    position: relative;
+    top: -260px;
+    left: -150px;
+}
+#littleImage img {
+    width: 100%;
+}
