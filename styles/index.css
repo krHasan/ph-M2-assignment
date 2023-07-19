@@ -118,7 +118,7 @@ nav {
 }
 .banner-title {
     display: flex;
-    height: 60vh;
+    height: 70vh;
     width: 50vw;
     min-height: 400px;
     align-items: center;
@@ -200,6 +200,8 @@ nav {
     text-align: right;
     gap: 1.5rem;
     width: 35vw;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .gamer-fourth {
     color: var(--text-color-gray);
@@ -223,7 +225,7 @@ nav {
 /* online */
 .online-title {
     text-align: center;
-    margin-top: 7.5rem;
+    margin-top: 5.5rem;
 }
 .online-title > p {
     margin-top: 1rem;
@@ -270,7 +272,7 @@ nav {
 .instant {
     display: flex;
     justify-content: space-between;
-    margin: 120px 15vw 120px 15vw;
+    margin: 100px 15vw 100px 15vw;
 }
 .instant-content {
     display: flex;
@@ -368,13 +370,15 @@ nav {
 }
 .foo-menu {
     width: 800px;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
     padding: 10px;
+}
+.foo-menu p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
 .foo-icons {
     display: flex;
@@ -392,10 +396,12 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 60px;
+    margin-top: 40px;
+}
+.foo-condition p {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
-    margin-top: 40px;
 }
 .foo-copy {
     color: rgba(255, 255, 255, 0.60);
