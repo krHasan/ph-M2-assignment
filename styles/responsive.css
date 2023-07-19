@@ -118,4 +118,27 @@
         line-height: 1.75rem; 
     }
 
+
+    /* online */
+    .online-title {
+        margin-top: 4.5rem;
+    }
+    .online-title > p {
+        margin-bottom: 1.5rem;
+    }
+    .online-content {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .online-content .box img {
+        margin-bottom: 0.5rem;
+    }
+    .online-content .box p {
+        text-align: center;
+    }
 }
