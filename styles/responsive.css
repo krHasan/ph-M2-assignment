@@ -135,6 +135,9 @@
         align-items: center;
         width: 100vw;
     }
+    .online-content .box {
+        width: 80vw;
+    }
     .online-content .box img {
         margin-bottom: 0.5rem;
     }
@@ -173,4 +176,69 @@
         top: 160px;
         left: -50px;
     }
+
+
+    /* icons */
+    .icons-section {
+        margin-top: 50px;
+        padding: 50px 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .icon-container {
+        width: 130px;
+        height: 70px;
+    }
+    .icon-image {
+        height: 40px;
+        width: 50px;
+        margin: 5px;
+    }
+    .icon-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+    /* footer */
+    .footer {
+        padding: 50px 0;
+    }
+    .foo-menu {
+        width: 90vw;
+        color: white;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 0;
+        gap: 15px;
+    }
+    .foo-icons {
+        flex-wrap: wrap;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .foo-ico-box {
+        height: 30px;
+    }
+    .foo-condition {
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .foo-copy {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+
 }

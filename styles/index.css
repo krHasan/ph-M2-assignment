@@ -295,17 +295,15 @@ nav {
 /* icons */
 .icons-section {
     margin-top: 120px;
-    padding: 100px 15vw;
+    padding: 100px 10vw;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-.icons-first-half {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-}
-.icons-second-half {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .icon-container {
     display: flex;
@@ -316,9 +314,13 @@ nav {
     background: #FFF;
 }
 .icon-image {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin: 10px;
+}
+.icon-image img {
+    height: 100%;
+    width: 100%;
 }
 
 
