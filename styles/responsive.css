@@ -47,4 +47,75 @@
     .menu-links {
         padding: 10px 15px;
     }
+
+
+    /* banner */
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .banner-title {
+        height: 400px;
+        width: 100vw;
+        min-height: 400px;
+        align-items: center;
+        justify-content: center;
+        background-image: url("/images/Group14.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .banner-title > div {
+        padding-left: 0;
+    }
+    .bt-first {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .bt-second {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .bt-third, .bt-fourth, .bt-fifth {
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+    }
+    .bt-sixth {
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-img {
+        width: 100vw;
+        justify-content: center;
+    }
+    .banner-img img {
+        width: 90vw;
+    }
+
+
+    /* gamer */
+    .gamer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gamer-img {
+        width: 80vw;
+    }
+    .gamer-content {
+        justify-content: center;
+        text-align: center;
+        gap: 1.5rem;
+        width: 90vw;
+    }
+    .gamer-fourth {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+    }
+    .gamer-fourth p:last-child {
+        font-size: 1.25rem;
+        line-height: 1.75rem; 
+    }
+
 }
