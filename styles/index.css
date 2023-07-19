@@ -285,3 +285,93 @@ nav {
 #littleImage img {
     width: 100%;
 }
+
+
+
+/* icons */
+.icons-section {
+    margin-top: 120px;
+    padding: 100px 15vw;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.icons-first-half {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.icons-second-half {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+}
+.icon-image {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+
+
+/* footer */
+.footer {
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+.footer .legend {
+    color: white;
+}
+.foo-menu {
+    width: 800px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 10px;
+}
+.foo-icons {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.foo-ico-box {
+    height: 40px;
+}
+.foo-ico-box img {
+    height: 100%;
+}
+.foo-condition {
+    width: 688px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.foo-copy {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
