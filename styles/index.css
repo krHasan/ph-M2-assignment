@@ -197,9 +197,6 @@ nav {
     gap: 1.5rem;
     width: 35vw;
 }
-.gamer-second {
-    width: 520px;  
-}
 .gamer-fourth {
     color: var(--text-color-gray);
     text-align: right;
@@ -247,40 +244,43 @@ nav {
 /* instant */
 .instant {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 120px 15vw 120px 15vw;
-    height: 650px;
 }
 .instant-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 265px;
+    width: 30vw;
 }
 .ic-heading {
-    width: 400px;
+    /* width: 400px; */
     text-align: right;
 }
 .ic-text {
-    width: 350px;
     text-align: right;
     margin-top: 1.5rem;
-    position: relative;
-    right: -45px;
+    /* position: relative;
+    right: -45px; */
+}
+.instant-img-container {
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
 }
 #bigImage {
-    width: 634px;
-    height: 650px;
+    width: 434px;
+    position: relative;
 }
 #bigImage img {
     width: 100%;
 } 
 #littleImage {
-    width: 318px;
-    position: relative;
-    top: -260px;
-    left: -150px;
+    width: 218px;
+    position: absolute;
+    top: 240px;
+    left: -60px;
 }
 #littleImage img {
     width: 100%;
