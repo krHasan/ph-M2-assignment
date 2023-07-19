@@ -243,6 +243,27 @@ nav {
     width: 100%;
     margin-bottom: 1rem;
 }
+.play-container {
+    position: relative;
+}
+.play-icon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #555; */
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding: 12px 24px; */
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    text-align: center;
+}
 
 
 /* instant */
@@ -304,6 +325,7 @@ nav {
     place-items: center;
     justify-content: center;
     align-content: center;
+    gap: 20px;
 }
 .icon-container {
     display: flex;
@@ -312,6 +334,13 @@ nav {
     height: 80px;
     border-radius: 50px;
     background: #FFF;
+}
+.icon-container:hover {
+    cursor: pointer;
+    border: 1px solid #F948B2;
+}
+.icon-container:hover > p {
+    color: #F948B2;
 }
 .icon-image {
     height: 50px;
