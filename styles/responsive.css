@@ -141,4 +141,36 @@
     .online-content .box p {
         text-align: center;
     }
+
+
+
+    /* instant */
+    .instant {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 120px 0;
+    }
+    .instant-content {
+        width: 90vw;
+    }
+    .ic-heading {
+        text-align: center;
+    }
+    .ic-text {
+        text-align: center;
+        margin: 1rem 0;
+        line-height: 20px;
+    }
+    .instant-img-container {
+        width: 60vw;
+        justify-content: flex-end;
+    }
+    #littleImage {
+        width: 118px;
+        position: absolute;
+        top: 160px;
+        left: -50px;
+    }
 }
