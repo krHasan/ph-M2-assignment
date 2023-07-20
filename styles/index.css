@@ -255,15 +255,15 @@ nav {
     border-radius: 1rem;
 }
 .online-box-img-1 {
-    background-image: url('/images/Rectangle4.png');
+    background-image: url("/images/Rectangle4.png");
     background-size: cover;
 }
 .online-box-img-2 {
-    background-image: url('/images/Rectangle5.png');
+    background-image: url("/images/Rectangle5.png");
     background-size: cover;
 }
 .online-box-img-3 {
-    background: url('/images/Rectangle7.png');
+    background: url("/images/Rectangle7.png");
     background-size: cover;
     color: white;
     font-size: 1rem;
@@ -294,7 +294,7 @@ nav {
     border-radius: 1rem;
 }
 .online-box-img-4 {
-    background-image: url('/images/Rectangle6.png');
+    background-image: url("/images/Rectangle6.png");
     background-size: cover;
 }
 
