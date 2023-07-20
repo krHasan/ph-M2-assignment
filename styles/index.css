@@ -349,26 +349,54 @@ nav {
 
 
 /* icons */
+.ic-one {
+    grid-area: ic-one;
+}
+.ic-two {
+    grid-area: ic-two;
+}
+.ic-three {
+    grid-area: ic-three;
+}
+.ic-fourth {
+    grid-area: ic-fourth;
+}
+.ic-five {
+    grid-area: ic-five;
+}
+.ic-six {
+    grid-area: ic-six;
+}
+.ic-seven {
+    grid-area: ic-seven;
+}
+.ic-eight {
+    grid-area: ic-eight;
+}
+.ic-nine {
+    grid-area: ic-nine;
+}
 .icons-section {
     margin-top: 120px;
     padding: 100px 10vw;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    align-items: center;
-    place-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "ic-one ic-one ic-two ic-two ic-three ic-three ic-fourth ic-fourth ic-five ic-five"
+    " . ic-six ic-six ic-seven ic-seven ic-eight ic-eight ic-nine ic-nine . "
+    ;
+    gap: 1rem;
 }
 .icon-container {
     display: flex;
     align-items: center;
-    width: 243px;
-    height: 80px;
-    border-radius: 50px;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 3rem;
     background: #FFF;
+    border: 1px solid white;
 }
 .icon-container:hover {
     cursor: pointer;
@@ -378,9 +406,9 @@ nav {
     color: #F948B2;
 }
 .icon-image {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
+    height: 3vw;
+    width: 3vw;
+    margin: 8px;
 }
 .icon-image img {
     height: 100%;
