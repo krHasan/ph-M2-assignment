@@ -183,7 +183,7 @@
     /* icons */
     .icons-section {
         margin-top: 50px;
-        padding: 50px 0;
+        padding: 50px 5px;
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: 
         " . ic-one ic-one ic-two ic-two ic-three ic-three"
@@ -430,21 +430,25 @@
     /* icons */
     .icons-section {
         margin-top: 50px;
-        padding: 50px 0;
-        grid-template-columns: repeat(3, 1fr);
+        padding: 50px 10px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: 
+        " . ic-one ic-one ic-two ic-two ic-three ic-three"
+        "ic-fourth ic-fourth ic-five ic-five ic-six ic-six . "
+        " . ic-seven ic-seven ic-eight ic-eight ic-nine ic-nine"
+        ;
     }
     .icon-container {
-        width: 130px;
-        height: 70px;
+        width: 24vw;
+        height: 10vw;
+        border-radius: 3rem;
+        background: #FFF;
+        border: 1px solid white;
     }
     .icon-image {
-        height: 40px;
+        height: 50px;
         width: 50px;
         margin: 5px;
-    }
-    .icon-image img {
-        height: 100%;
-        width: 100%;
     }
 
 
