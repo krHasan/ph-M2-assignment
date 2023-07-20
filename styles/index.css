@@ -223,49 +223,82 @@ nav {
 
 
 /* online */
+.online {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5rem;
+}
 .online-title {
     text-align: center;
-    margin-top: 5.5rem;
 }
 .online-title > p {
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .online-content {
-    margin-left: 15vw;
-    margin-right: 15vw;
     display: flex;
+    padding-left: 15vw;
+    padding-right: 15vw;
     justify-content: space-between;
-    gap: 1.5rem;
 }
-.online-content .box {
-    width: 340px;
+.box {
+    width: 16vw;
+    height: 22vw;
 }
-.online-content .box img {
+.box p {
+    text-align: center;
+    margin-top: .5rem;
+}
+.box > div:first-child {
     width: 100%;
-    margin-bottom: 1rem;
+    height: 19vw;
+    border-radius: 1rem;
 }
-.play-container {
+.online-box-img-1 {
+    background-image: url('/images/Rectangle4.png');
+    background-size: cover;
+}
+.online-box-img-2 {
+    background-image: url('/images/Rectangle5.png');
+    background-size: cover;
+}
+.online-box-img-3 {
+    background: url('/images/Rectangle7.png');
+    background-size: cover;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
-.play-icon {
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    /* background-color: #555; */
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    /* padding: 12px 24px; */
-    border: none;
+.play-now {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
     cursor: pointer;
-    /* border-radius: 5px; */
-    text-align: center;
 }
+.play-now:hover {
+    transform: scale(1.1);
+}
+.play-now a {
+    color: white;
+}
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    position: absolute;
+    border-radius: 1rem;
+}
+.online-box-img-4 {
+    background-image: url('/images/Rectangle6.png');
+    background-size: cover;
+}
+
+
 
 
 /* instant */
