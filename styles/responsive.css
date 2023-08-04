@@ -59,7 +59,7 @@
         min-height: 400px;
         align-items: center;
         justify-content: center;
-        background-image: url("/images/Group14.png");
+        background-image: url("./images/Group14.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -304,7 +304,7 @@
         min-height: 400px;
         align-items: center;
         justify-content: center;
-        background-image: url("/images/Group14.png");
+        background-image: url("./images/Group14.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
